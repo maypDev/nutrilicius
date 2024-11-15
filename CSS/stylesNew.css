@@ -1,0 +1,75 @@
+/* Fondo de la página */
+body {
+    background-color: #5B5D3B; /* Color Oscuro */
+    color: #E0D9C8; /* Color Claro para el texto */
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor de cada producto */
+.portfolio-item {
+    background-color: #A89D89; /* Color Intermedio */
+    color: #E0D9C8; /* Color Claro para el texto */
+    border: 1px solid #E0D9C8; /* Borde para definir mejor los recuadros */
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Títulos y texto en los productos */
+.portfolio-item h5 {
+    color: #E0D9C8; /* Color Claro */
+    font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #A89D89; /* Color Intermedio */
+    color: #5B5D3B; /* Contraste con el fondo */
+    border: 1px solid #E0D9C8; /* Borde claro */
+}
+
+.btn-primary:hover {
+    background-color: #5B5D3B; /* Color Oscuro en hover */
+    color: #E0D9C8;
+}
+
+.btn-danger {
+    background-color: #5B5D3B; /* Color Oscuro */
+    color: #E0D9C8;
+}
+
+.btn-danger:hover {
+    background-color: #A89D89; /* Color Intermedio en hover */
+    color: #5B5D3B;
+}
+
+/* Contenedor del carrito */
+#cart {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #A89D89; /* Color Intermedio */
+    color: #5B5D3B; /* Texto en color oscuro */
+    border: 1px solid #E0D9C8;
+    border-radius: 8px;
+}
+
+/* Total y boton de enviar a WhatsApp */
+.cart-total {
+    color: #E0D9C8; /* Color Claro para el total */
+    text-align: right;
+}
+
+#cart .btn-success {
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+    background-color: #5B5D3B; /* Color Oscuro */
+    color: #E0D9C8; /* Color Claro */
+    border: 1px solid #A89D89; /* Borde de color intermedio */
+}
+
+#cart .btn-success:hover {
+    background-color: #A89D89; /* Cambia al intermedio en hover */
+    color: #5B5D3B;
+}
